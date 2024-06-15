@@ -18,27 +18,40 @@
 
 
 // switch statement
-int day = 4;
-switch (day) {
-  case 1:
-    cout << "Monday";
-    break;
-  case 2:
-    cout << "Tuesday";
-    break;
-  case 3:
-    cout << "Wednesday";
-    break;
-  case 4:
-    cout << "Thursday";
-    break;
-  case 5:
-    cout << "Friday";
-    break;
-  case 6:
-    cout << "Saturday";
-    break;
-  case 7:
-    cout << "Sunday";
-    break;
+// int day = 4;
+// switch (day) {
+//   case 1:
+//     cout << "Monday";
+//     break;
+//   case 2:
+//     cout << "Tuesday";
+//     break;
+//   case 3:
+//     cout << "Wednesday";
+//     break;
+//   case 4:
+//     cout << "Thursday";
+//     break;
+//   case 5:
+//     cout << "Friday";
+//     break;
+//   case 6:
+//     cout << "Saturday";
+//     break;
+//   case 7:
+//     cout << "Sunday";
+//     break;
+// }
+
+
+// do while
+#include<iostream>
+int main(){
+  int sum=0,val=1;
+  while(val<=10){
+    sum+=val;
+    val++;
+  }
+  std::cout<<"Sum of valueis: " << sum << std::endl;
+  return 0;
 }
