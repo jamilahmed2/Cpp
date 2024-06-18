@@ -1,1 +1,5 @@
 *.exe
+exe
+/.exe
+.exe
+cpp.exe
